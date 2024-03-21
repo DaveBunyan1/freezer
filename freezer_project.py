@@ -24,20 +24,20 @@ connection_pool = pooling.MySQLConnectionPool(
 
 
 # Dictionary mapping analog input to amp and temperature sensor ID
-analog_mapping = {
-    '1': 1,
-    '2': 2,
-    '3': 3,
-    '4': 4,
-    '6': 1,
-    '7': 2,
-    '8': 3,
-    '9': 4,
-    '10': 5,
-    '11': 6,
-    '12': 7,
-    '13': 8
-}
+# analog_mapping = {
+#     '1': 1,
+#     '2': 2,
+#     '3': 3,
+#     '4': 4,
+#     '6': 1,
+#     '7': 2,
+#     '8': 3,
+#     '9': 4,
+#     '10': 5,
+#     '11': 6,
+#     '12': 7,
+#     '13': 8
+# }
 
 # Dictionary mapping binary input to water level and door sensor ID
 binary_mapping = {
